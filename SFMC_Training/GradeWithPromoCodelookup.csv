@@ -1,16 +1,12 @@
-Grade,Remark,Code
-1.00,Passed,UNOMAGICO
-1.25,Passed,UNOMAGICO
-1.50,Passed,UNOMAGICO
-1.75,Passed,UNOMAGICO
-2.00,Passed,DOSPORDOS
-2.25,Passed,DOSPORDOS
-2.50,Passed,DOSPORDOS
-2.75,Passed,DOSPORDOS
-3.00,Passed,TRESPASSING
-5.00,Failed,BABAWITAYO
-8.00,Failed,BABAWITAYO
-,,
-,,
-,,
-,,
+VoucherNumber,Grade,Remark,Code,Description
+10001,1.00,Passed,UNOMAGICO,Use this code to get a P500 off your next GrabFood purchase. No minimum order required.
+10002,1.25,Passed,UNOMAGICO,Use this code to get a P500 off your next GrabFood purchase. No minimum order required.
+10003,1.50,Passed,UNOMAGICO,Use this code to get a P500 off your next GrabFood purchase. No minimum order required.
+10004,1.75,Passed,UNOMAGICO,Use this code to get a P500 off your next GrabFood purchase. No minimum order required.
+10005,2.00,Passed,DOSPORDOS,Use this code to get a P250 off your next GrabFood purchase. No minimum order required.
+10006,2.25,Passed,DOSPORDOS,Use this code to get a P250 off your next GrabFood purchase. No minimum order required.
+10007,2.50,Passed,DOSPORDOS,Use this code to get a P250 off your next GrabFood purchase. No minimum order required.
+10008,2.75,Passed,DOSPORDOS,Use this code to get a P250 off your next GrabFood purchase. No minimum order required.
+10009,3.00,Passed,TRESPASSING,Use this code to get a P100 off your next GrabFood purchase. No minimum order required.
+10010,5.00,Failed,BABAWITAYO,Use this code to get a P25 off your next GrabFood purchase. No minimum order required.
+10011,8.00,Dropped,BABAWITAYO,Use this code to get a P25 off your next GrabFood purchase. No minimum order required.
