@@ -1,0 +1,16 @@
+This repository demonstrates a use case scenario where SFMC is used to calculate student's grades from an import file. The grading system is as follows
+
+50% Quizzes
+20% Other Learning Activities
+30% Final Exam
+
+Passing percentage of the subject is 70%. To see the grade equivalent and the realtime computation of student's grades, kindly check Grade Sheet.xlsx
+
+Tools used in creating the needful in SFMC:
+1. Email Studio/Contact Builder for data extensions and import of raw data
+2. Automation Studio for data segmentation
+3. Content Builder for EDM builds.
+4. Journey Builder for providing contacts the correct path based on their grade.
+
+
+To build your DEs, kindly check DE_Docu.xlsx for your reference.
