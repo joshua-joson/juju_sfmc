@@ -14,3 +14,17 @@ Tools used in creating the needful in SFMC:
 
 
 To build your DEs, kindly check DE_Docu.xlsx for your reference.
+
+To build the automation, create the following SQL queries.
+1. Staging1 - select the import DE and do an inner join on the StudentMasterRecord DE to get the boolean fields. this script should also calculate each section of
+the grading system mentioned above
+2. Staging2 - select the Staging1 DE and calculate the Final Average, Final Grade and Final Remark
+3. Final - select the Staging2 DE and only select marketable students.
+4. JourneyDE - select all records from the Final DE.
+
+To build the EDMs, create two builds (one for passed and one for failed/dropped)
+1. The EDMs should be a marketable send classification to reward students based on their grade
+2. Passed EDM build tells students they did a job well done and the promo code they would be getting is based on their final grade.
+3. Failed/Dropped EDM build tells students that they failed the subject but will still be rewarded (although a small amount unlike the passers) with a promo code.
+
+To build the journey, utilize a decision split with journey data and should be marketable in email.
